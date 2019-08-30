@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.or.yi.exam0826.dao.SaleDetailMapper">
+	
+	<resultMap type="SaleDetail" id="resultSaleDetail">
+		<result column="sale_price" property="salePrice"/>
+		<result column="add_tax" property="addTax"/>
+		<result column="sup_price" property="supPrice"/>
+		<result column="mar_price" property="marPrice"/>
+	</resultMap>
+	
+	<resultMap type="SaleDetail" id="resultSaleDetail2" extends="resultSaleDetail">
+		<association property="no" resultMap="kr.or.yi.exam0826.dao.SaleMapper.resultSale" />
+	</resultMap>
+	
+	<select id="selectSaleDetailRankSalePrice" resultMap="resultSaleDetail2">
+		select * from sale_detail order by sale_price desc
+	</select>
+	
+	<select id="selectSaleDetailRankMarPrice" resultMap="resultSaleDetail2">
+		select * from sale_detail order by mar_price desc
+	</select>
+</mapper>

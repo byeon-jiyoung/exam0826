@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.or.yi.exam0826.dao.SaleMapper">
+	
+	<resultMap type="Sale" id="resultSale">
+		<id column="no" property="no"/>
+		<result column="price" property="price"/>
+		<result column="sale_cnt" property="saleCnt"/>
+		<result column="margin_rate" property="marginRate"/>
+	</resultMap>
+	
+	<resultMap type="Sale" id="resultSale2" extends="resultSale">
+		<association property="code" resultMap="kr.or.yi.exam0826.dao.ProductMapper.resultProduct" />
+	</resultMap>
+	
+	<select id="selectSaleByAll" resultMap="resultSale2">
+		select * from sale
+	</select>
+</mapper>

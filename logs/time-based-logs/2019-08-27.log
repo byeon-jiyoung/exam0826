@@ -1,0 +1,451 @@
+[DEBUG] [2019-08-27 17:58] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 17:58] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 17:58] ==> Parameters: 
+[TRACE] [2019-08-27 17:58] <==    Columns: code, name
+[TRACE] [2019-08-27 17:58] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 17:58] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 17:58] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 17:58] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 17:58] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 17:58] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 17:58] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 17:58] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 17:58] <==      Total: 8
+[DEBUG] [2019-08-27 17:58] testOpenSession()
+[DEBUG] [2019-08-27 17:58] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@1be9f32f
+[DEBUG] [2019-08-27 18:06] test02SelectSaleByCode()
+[DEBUG] [2019-08-27 18:06] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-27 18:06] ==> Parameters: A001(String)
+[TRACE] [2019-08-27 18:06] <==    Columns: code, name
+[TRACE] [2019-08-27 18:06] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[DEBUG] [2019-08-27 18:06] <==      Total: 1
+[DEBUG] [2019-08-27 18:06] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 18:06] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 18:06] ==> Parameters: 
+[TRACE] [2019-08-27 18:06] <==    Columns: code, name
+[TRACE] [2019-08-27 18:06] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 18:06] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 18:06] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 18:06] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 18:06] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 18:06] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 18:06] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 18:06] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 18:06] <==      Total: 8
+[DEBUG] [2019-08-27 18:06] testOpenSession()
+[DEBUG] [2019-08-27 18:06] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@52e91f
+[DEBUG] [2019-08-27 18:08] test02SelectSaleByCode()
+[DEBUG] [2019-08-27 18:08] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-27 18:08] ==> Parameters: A003(String)
+[TRACE] [2019-08-27 18:08] <==    Columns: code, name
+[TRACE] [2019-08-27 18:08] <==        Row: A003, ÇìÀÌÁñ³Ó
+[DEBUG] [2019-08-27 18:08] <==      Total: 1
+[DEBUG] [2019-08-27 18:08] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 18:08] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 18:08] ==> Parameters: 
+[TRACE] [2019-08-27 18:08] <==    Columns: code, name
+[TRACE] [2019-08-27 18:08] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 18:08] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 18:08] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 18:08] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 18:08] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 18:08] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 18:08] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 18:08] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 18:08] <==      Total: 8
+[DEBUG] [2019-08-27 18:08] testOpenSession()
+[DEBUG] [2019-08-27 18:08] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@52e91f
+[DEBUG] [2019-08-27 18:14] test02SelectSaleByCode()
+[DEBUG] [2019-08-27 18:14] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-27 18:14] ==> Parameters: A003(String)
+[TRACE] [2019-08-27 18:14] <==    Columns: code, name
+[TRACE] [2019-08-27 18:14] <==        Row: A003, ÇìÀÌÁñ³Ó
+[DEBUG] [2019-08-27 18:14] <==      Total: 1
+[DEBUG] [2019-08-27 18:14] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 18:14] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 18:14] ==> Parameters: 
+[TRACE] [2019-08-27 18:14] <==    Columns: code, name
+[TRACE] [2019-08-27 18:14] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 18:14] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 18:14] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 18:14] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 18:14] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 18:14] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 18:14] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 18:14] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 18:14] <==      Total: 8
+[DEBUG] [2019-08-27 18:14] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 18:14] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-27 18:14] ==> Parameters: 
+[TRACE] [2019-08-27 18:14] <==    Columns: no, code, price, sale_cnt, margin_rate
+[TRACE] [2019-08-27 18:14] <==        Row: 1, A001, 4500, 150, 10
+[TRACE] [2019-08-27 18:14] <==        Row: 2, A002, 3800, 140, 15
+[TRACE] [2019-08-27 18:14] <==        Row: 3, B001, 5200, 250, 12
+[TRACE] [2019-08-27 18:14] <==        Row: 4, B002, 4300, 110, 11
+[DEBUG] [2019-08-27 18:14] <==      Total: 4
+[DEBUG] [2019-08-27 18:14] testOpenSession()
+[DEBUG] [2019-08-27 18:14] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@6a0c60e1
+[DEBUG] [2019-08-27 18:41] test02SelectSaleByCode()
+[DEBUG] [2019-08-27 18:41] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-27 18:41] ==> Parameters: A003(String)
+[TRACE] [2019-08-27 18:41] <==    Columns: code, name
+[TRACE] [2019-08-27 18:41] <==        Row: A003, ÇìÀÌÁñ³Ó
+[DEBUG] [2019-08-27 18:41] <==      Total: 1
+[DEBUG] [2019-08-27 18:41] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 18:41] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 18:41] ==> Parameters: 
+[TRACE] [2019-08-27 18:41] <==    Columns: code, name
+[TRACE] [2019-08-27 18:41] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 18:41] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 18:41] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 18:41] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 18:41] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 18:41] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 18:41] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 18:41] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 18:41] <==      Total: 8
+[DEBUG] [2019-08-27 18:41] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 18:41] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-27 18:41] ==> Parameters: 
+[TRACE] [2019-08-27 18:41] <==    Columns: no, code, price, sale_cnt, margin_rate
+[TRACE] [2019-08-27 18:41] <==        Row: 1, A001, 4500, 150, 10
+[TRACE] [2019-08-27 18:41] <==        Row: 2, A002, 3800, 140, 15
+[TRACE] [2019-08-27 18:41] <==        Row: 3, B001, 5200, 250, 12
+[TRACE] [2019-08-27 18:41] <==        Row: 4, B002, 4300, 110, 11
+[DEBUG] [2019-08-27 18:41] <==      Total: 4
+[DEBUG] [2019-08-27 18:41] testOpenSession()
+[DEBUG] [2019-08-27 18:41] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@682097cc
+[DEBUG] [2019-08-27 18:43] test02SelectSaleByCode()
+[DEBUG] [2019-08-27 18:43] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-27 18:43] ==> Parameters: A003(String)
+[TRACE] [2019-08-27 18:43] <==    Columns: code, name
+[TRACE] [2019-08-27 18:43] <==        Row: A003, ÇìÀÌÁñ³Ó
+[DEBUG] [2019-08-27 18:43] <==      Total: 1
+[DEBUG] [2019-08-27 18:43] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 18:43] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 18:43] ==> Parameters: 
+[TRACE] [2019-08-27 18:43] <==    Columns: code, name
+[TRACE] [2019-08-27 18:43] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 18:43] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 18:43] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 18:43] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 18:43] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 18:43] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 18:43] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 18:43] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 18:43] <==      Total: 8
+[DEBUG] [2019-08-27 18:43] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 18:43] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-27 18:43] ==> Parameters: 
+[TRACE] [2019-08-27 18:43] <==    Columns: no, code, price, sale_cnt, margin_rate
+[TRACE] [2019-08-27 18:43] <==        Row: 1, A001, 4500, 150, 10
+[TRACE] [2019-08-27 18:43] <==        Row: 2, A002, 3800, 140, 15
+[TRACE] [2019-08-27 18:43] <==        Row: 3, B001, 5200, 250, 12
+[TRACE] [2019-08-27 18:43] <==        Row: 4, B002, 4300, 110, 11
+[DEBUG] [2019-08-27 18:43] <==      Total: 4
+[DEBUG] [2019-08-27 18:43] testOpenSession()
+[DEBUG] [2019-08-27 18:43] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@164b0dc6
+[DEBUG] [2019-08-27 18:58] test02SelectSaleByCode()
+[DEBUG] [2019-08-27 18:58] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-27 18:58] ==> Parameters: A003(String)
+[TRACE] [2019-08-27 18:58] <==    Columns: code, name
+[TRACE] [2019-08-27 18:58] <==        Row: A003, ÇìÀÌÁñ³Ó
+[DEBUG] [2019-08-27 18:58] <==      Total: 1
+[DEBUG] [2019-08-27 18:58] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 18:58] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 18:58] ==> Parameters: 
+[TRACE] [2019-08-27 18:58] <==    Columns: code, name
+[TRACE] [2019-08-27 18:58] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 18:58] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 18:58] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 18:58] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 18:58] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 18:58] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 18:58] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 18:58] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 18:58] <==      Total: 8
+[DEBUG] [2019-08-27 18:58] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 18:58] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-27 18:58] ==> Parameters: 
+[TRACE] [2019-08-27 18:58] <==    Columns: no, code, price, sale_cnt, margin_rate
+[TRACE] [2019-08-27 18:58] <==        Row: 1, A001, 4500, 150, 10
+[TRACE] [2019-08-27 18:58] <==        Row: 2, A002, 3800, 140, 15
+[TRACE] [2019-08-27 18:58] <==        Row: 3, B001, 5200, 250, 12
+[TRACE] [2019-08-27 18:58] <==        Row: 4, B002, 4300, 110, 11
+[DEBUG] [2019-08-27 18:58] <==      Total: 4
+[DEBUG] [2019-08-27 18:58] test01SelectSaleDetailRankSalePrice()
+[DEBUG] [2019-08-27 18:58] testOpenSession()
+[DEBUG] [2019-08-27 18:58] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@ebfe011
+[DEBUG] [2019-08-27 19:00] test01SelectSaleDetailRankSalePrice()
+[DEBUG] [2019-08-27 19:00] test02SelectSaleByCode()
+[DEBUG] [2019-08-27 19:00] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-27 19:00] ==> Parameters: A003(String)
+[TRACE] [2019-08-27 19:00] <==    Columns: code, name
+[TRACE] [2019-08-27 19:00] <==        Row: A003, ÇìÀÌÁñ³Ó
+[DEBUG] [2019-08-27 19:00] <==      Total: 1
+[DEBUG] [2019-08-27 19:00] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:00] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 19:00] ==> Parameters: 
+[TRACE] [2019-08-27 19:00] <==    Columns: code, name
+[TRACE] [2019-08-27 19:00] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 19:00] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 19:00] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 19:00] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 19:00] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 19:00] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 19:00] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 19:00] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 19:00] <==      Total: 8
+[DEBUG] [2019-08-27 19:00] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:00] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-27 19:00] ==> Parameters: 
+[TRACE] [2019-08-27 19:00] <==    Columns: no, code, price, sale_cnt, margin_rate
+[TRACE] [2019-08-27 19:00] <==        Row: 1, A001, 4500, 150, 10
+[TRACE] [2019-08-27 19:00] <==        Row: 2, A002, 3800, 140, 15
+[TRACE] [2019-08-27 19:00] <==        Row: 3, B001, 5200, 250, 12
+[TRACE] [2019-08-27 19:00] <==        Row: 4, B002, 4300, 110, 11
+[DEBUG] [2019-08-27 19:00] <==      Total: 4
+[DEBUG] [2019-08-27 19:00] testOpenSession()
+[DEBUG] [2019-08-27 19:00] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@ebfe011
+[DEBUG] [2019-08-27 19:00] test01SelectSaleDetailRankSalePrice()
+[DEBUG] [2019-08-27 19:00] test02SelectSaleByCode()
+[DEBUG] [2019-08-27 19:00] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-27 19:00] ==> Parameters: A003(String)
+[TRACE] [2019-08-27 19:00] <==    Columns: code, name
+[TRACE] [2019-08-27 19:00] <==        Row: A003, ÇìÀÌÁñ³Ó
+[DEBUG] [2019-08-27 19:00] <==      Total: 1
+[DEBUG] [2019-08-27 19:00] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:00] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 19:00] ==> Parameters: 
+[TRACE] [2019-08-27 19:00] <==    Columns: code, name
+[TRACE] [2019-08-27 19:00] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 19:00] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 19:00] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 19:00] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 19:00] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 19:00] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 19:00] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 19:00] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 19:00] <==      Total: 8
+[DEBUG] [2019-08-27 19:00] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:00] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-27 19:00] ==> Parameters: 
+[TRACE] [2019-08-27 19:00] <==    Columns: no, code, price, sale_cnt, margin_rate
+[TRACE] [2019-08-27 19:00] <==        Row: 1, A001, 4500, 150, 10
+[TRACE] [2019-08-27 19:00] <==        Row: 2, A002, 3800, 140, 15
+[TRACE] [2019-08-27 19:00] <==        Row: 3, B001, 5200, 250, 12
+[TRACE] [2019-08-27 19:00] <==        Row: 4, B002, 4300, 110, 11
+[DEBUG] [2019-08-27 19:00] <==      Total: 4
+[DEBUG] [2019-08-27 19:00] testOpenSession()
+[DEBUG] [2019-08-27 19:00] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@2320162e
+[DEBUG] [2019-08-27 19:02] test01SelectSaleDetailRankSalePrice()
+[DEBUG] [2019-08-27 19:02] test02SelectSaleByCode()
+[DEBUG] [2019-08-27 19:02] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-27 19:02] ==> Parameters: A003(String)
+[TRACE] [2019-08-27 19:02] <==    Columns: code, name
+[TRACE] [2019-08-27 19:02] <==        Row: A003, ÇìÀÌÁñ³Ó
+[DEBUG] [2019-08-27 19:02] <==      Total: 1
+[DEBUG] [2019-08-27 19:02] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:02] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 19:02] ==> Parameters: 
+[TRACE] [2019-08-27 19:02] <==    Columns: code, name
+[TRACE] [2019-08-27 19:02] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 19:02] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 19:02] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 19:02] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 19:02] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 19:02] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 19:02] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 19:02] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 19:02] <==      Total: 8
+[DEBUG] [2019-08-27 19:02] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:02] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-27 19:02] ==> Parameters: 
+[TRACE] [2019-08-27 19:02] <==    Columns: no, code, price, sale_cnt, margin_rate
+[TRACE] [2019-08-27 19:02] <==        Row: 1, A001, 4500, 150, 10
+[TRACE] [2019-08-27 19:02] <==        Row: 2, A002, 3800, 140, 15
+[TRACE] [2019-08-27 19:02] <==        Row: 3, B001, 5200, 250, 12
+[TRACE] [2019-08-27 19:02] <==        Row: 4, B002, 4300, 110, 11
+[DEBUG] [2019-08-27 19:02] <==      Total: 4
+[DEBUG] [2019-08-27 19:02] testOpenSession()
+[DEBUG] [2019-08-27 19:02] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@ebfe011
+[DEBUG] [2019-08-27 19:03] test01SelectSaleDetailRankSalePrice()
+[DEBUG] [2019-08-27 19:03] test02SelectSaleByCode()
+[DEBUG] [2019-08-27 19:03] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-27 19:03] ==> Parameters: A003(String)
+[TRACE] [2019-08-27 19:03] <==    Columns: code, name
+[TRACE] [2019-08-27 19:03] <==        Row: A003, ÇìÀÌÁñ³Ó
+[DEBUG] [2019-08-27 19:03] <==      Total: 1
+[DEBUG] [2019-08-27 19:03] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:03] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 19:03] ==> Parameters: 
+[TRACE] [2019-08-27 19:03] <==    Columns: code, name
+[TRACE] [2019-08-27 19:03] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 19:03] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 19:03] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 19:03] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 19:03] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 19:03] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 19:03] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 19:03] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 19:03] <==      Total: 8
+[DEBUG] [2019-08-27 19:03] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:03] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-27 19:03] ==> Parameters: 
+[TRACE] [2019-08-27 19:03] <==    Columns: no, code, price, sale_cnt, margin_rate
+[TRACE] [2019-08-27 19:03] <==        Row: 1, A001, 4500, 150, 10
+[TRACE] [2019-08-27 19:03] <==        Row: 2, A002, 3800, 140, 15
+[TRACE] [2019-08-27 19:03] <==        Row: 3, B001, 5200, 250, 12
+[TRACE] [2019-08-27 19:03] <==        Row: 4, B002, 4300, 110, 11
+[DEBUG] [2019-08-27 19:03] <==      Total: 4
+[DEBUG] [2019-08-27 19:03] testOpenSession()
+[DEBUG] [2019-08-27 19:03] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@1a612d8d
+[DEBUG] [2019-08-27 19:05] test01SelectSaleDetailRankSalePrice()
+[DEBUG] [2019-08-27 19:05] test02SelectSaleByCode()
+[DEBUG] [2019-08-27 19:05] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-27 19:05] ==> Parameters: A003(String)
+[TRACE] [2019-08-27 19:05] <==    Columns: code, name
+[TRACE] [2019-08-27 19:05] <==        Row: A003, ÇìÀÌÁñ³Ó
+[DEBUG] [2019-08-27 19:05] <==      Total: 1
+[DEBUG] [2019-08-27 19:05] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:05] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 19:05] ==> Parameters: 
+[TRACE] [2019-08-27 19:05] <==    Columns: code, name
+[TRACE] [2019-08-27 19:05] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 19:05] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 19:05] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 19:05] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 19:05] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 19:05] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 19:05] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 19:05] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 19:05] <==      Total: 8
+[DEBUG] [2019-08-27 19:05] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:05] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-27 19:05] ==> Parameters: 
+[TRACE] [2019-08-27 19:05] <==    Columns: no, code, price, sale_cnt, margin_rate
+[TRACE] [2019-08-27 19:05] <==        Row: 1, A001, 4500, 150, 10
+[TRACE] [2019-08-27 19:05] <==        Row: 2, A002, 3800, 140, 15
+[TRACE] [2019-08-27 19:05] <==        Row: 3, B001, 5200, 250, 12
+[TRACE] [2019-08-27 19:05] <==        Row: 4, B002, 4300, 110, 11
+[DEBUG] [2019-08-27 19:05] <==      Total: 4
+[DEBUG] [2019-08-27 19:05] testOpenSession()
+[DEBUG] [2019-08-27 19:05] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@1a612d8d
+[DEBUG] [2019-08-27 19:07] test01SelectSaleDetailRankSalePrice()
+[DEBUG] [2019-08-27 19:07] test02SelectSaleByCode()
+[DEBUG] [2019-08-27 19:07] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-27 19:07] ==> Parameters: A003(String)
+[TRACE] [2019-08-27 19:07] <==    Columns: code, name
+[TRACE] [2019-08-27 19:07] <==        Row: A003, ÇìÀÌÁñ³Ó
+[DEBUG] [2019-08-27 19:07] <==      Total: 1
+[DEBUG] [2019-08-27 19:07] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:07] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 19:07] ==> Parameters: 
+[TRACE] [2019-08-27 19:07] <==    Columns: code, name
+[TRACE] [2019-08-27 19:07] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 19:07] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 19:07] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 19:07] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 19:07] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 19:07] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 19:07] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 19:07] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 19:07] <==      Total: 8
+[DEBUG] [2019-08-27 19:07] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:07] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-27 19:07] ==> Parameters: 
+[TRACE] [2019-08-27 19:07] <==    Columns: no, code, price, sale_cnt, margin_rate
+[TRACE] [2019-08-27 19:07] <==        Row: 1, A001, 4500, 150, 10
+[TRACE] [2019-08-27 19:07] <==        Row: 2, A002, 3800, 140, 15
+[TRACE] [2019-08-27 19:07] <==        Row: 3, B001, 5200, 250, 12
+[TRACE] [2019-08-27 19:07] <==        Row: 4, B002, 4300, 110, 11
+[DEBUG] [2019-08-27 19:07] <==      Total: 4
+[DEBUG] [2019-08-27 19:07] testOpenSession()
+[DEBUG] [2019-08-27 19:07] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@1a612d8d
+[DEBUG] [2019-08-27 19:07] test01SelectSaleDetailRankSalePrice()
+[DEBUG] [2019-08-27 19:07] ==>  Preparing: select * from sale_detail order by sale_price desc 
+[DEBUG] [2019-08-27 19:07] ==> Parameters: 
+[TRACE] [2019-08-27 19:07] <==    Columns: no, sale_price, add_tax, sup_price, mar_price
+[TRACE] [2019-08-27 19:07] <==        Row: 3, 1300000, 118182, 1181818, 141818
+[TRACE] [2019-08-27 19:07] <==        Row: 1, 675000, 61364, 613636, 61364
+[TRACE] [2019-08-27 19:07] <==        Row: 2, 532000, 48364, 483636, 72545
+[TRACE] [2019-08-27 19:07] <==        Row: 4, 473000, 43000, 430000, 47300
+[DEBUG] [2019-08-27 19:07] <==      Total: 4
+[DEBUG] [2019-08-27 19:07] test02SelectSaleByCode()
+[DEBUG] [2019-08-27 19:07] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-27 19:07] ==> Parameters: A003(String)
+[TRACE] [2019-08-27 19:07] <==    Columns: code, name
+[TRACE] [2019-08-27 19:07] <==        Row: A003, ÇìÀÌÁñ³Ó
+[DEBUG] [2019-08-27 19:07] <==      Total: 1
+[DEBUG] [2019-08-27 19:07] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:07] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 19:07] ==> Parameters: 
+[TRACE] [2019-08-27 19:07] <==    Columns: code, name
+[TRACE] [2019-08-27 19:07] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 19:07] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 19:07] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 19:07] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 19:07] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 19:07] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 19:07] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 19:07] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 19:07] <==      Total: 8
+[DEBUG] [2019-08-27 19:07] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:07] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-27 19:07] ==> Parameters: 
+[TRACE] [2019-08-27 19:07] <==    Columns: no, code, price, sale_cnt, margin_rate
+[TRACE] [2019-08-27 19:07] <==        Row: 1, A001, 4500, 150, 10
+[TRACE] [2019-08-27 19:07] <==        Row: 2, A002, 3800, 140, 15
+[TRACE] [2019-08-27 19:07] <==        Row: 3, B001, 5200, 250, 12
+[TRACE] [2019-08-27 19:07] <==        Row: 4, B002, 4300, 110, 11
+[DEBUG] [2019-08-27 19:07] <==      Total: 4
+[DEBUG] [2019-08-27 19:07] testOpenSession()
+[DEBUG] [2019-08-27 19:07] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@67124e40
+[DEBUG] [2019-08-27 19:08] test02SelectSaleByCode()
+[DEBUG] [2019-08-27 19:08] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-27 19:08] ==> Parameters: A003(String)
+[TRACE] [2019-08-27 19:08] <==    Columns: code, name
+[TRACE] [2019-08-27 19:08] <==        Row: A003, ÇìÀÌÁñ³Ó
+[DEBUG] [2019-08-27 19:08] <==      Total: 1
+[DEBUG] [2019-08-27 19:08] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:08] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-27 19:08] ==> Parameters: 
+[TRACE] [2019-08-27 19:08] <==    Columns: code, name
+[TRACE] [2019-08-27 19:08] <==        Row: A001, ¾Æ¸Þ¸®Ä«³ë
+[TRACE] [2019-08-27 19:08] <==        Row: A002, Ä«ÇªÄ¡³ë
+[TRACE] [2019-08-27 19:08] <==        Row: A003, ÇìÀÌÁñ³Ó
+[TRACE] [2019-08-27 19:08] <==        Row: A004, ¿¡½ºÇÁ·¹¼Ò
+[TRACE] [2019-08-27 19:08] <==        Row: B001, µþ±â½¦ÀÌÅ©
+[TRACE] [2019-08-27 19:08] <==        Row: B002, ÈÄ¸£Ã÷¿ÍÀÎ
+[TRACE] [2019-08-27 19:08] <==        Row: B003, ÆÏºù¼ö
+[TRACE] [2019-08-27 19:08] <==        Row: B004, ¾ÆÀÌ½ºÃÊÄÚ
+[DEBUG] [2019-08-27 19:08] <==      Total: 8
+[DEBUG] [2019-08-27 19:08] test01SelectSaleByAll()
+[DEBUG] [2019-08-27 19:08] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-27 19:08] ==> Parameters: 
+[TRACE] [2019-08-27 19:08] <==    Columns: no, code, price, sale_cnt, margin_rate
+[TRACE] [2019-08-27 19:08] <==        Row: 1, A001, 4500, 150, 10
+[TRACE] [2019-08-27 19:08] <==        Row: 2, A002, 3800, 140, 15
+[TRACE] [2019-08-27 19:08] <==        Row: 3, B001, 5200, 250, 12
+[TRACE] [2019-08-27 19:08] <==        Row: 4, B002, 4300, 110, 11
+[DEBUG] [2019-08-27 19:08] <==      Total: 4
+[DEBUG] [2019-08-27 19:08] test01SelectSaleDetailRankSalePrice()
+[DEBUG] [2019-08-27 19:08] ==>  Preparing: select * from sale_detail order by sale_price desc 
+[DEBUG] [2019-08-27 19:08] ==> Parameters: 
+[TRACE] [2019-08-27 19:08] <==    Columns: no, sale_price, add_tax, sup_price, mar_price
+[TRACE] [2019-08-27 19:08] <==        Row: 3, 1300000, 118182, 1181818, 141818
+[TRACE] [2019-08-27 19:08] <==        Row: 1, 675000, 61364, 613636, 61364
+[TRACE] [2019-08-27 19:08] <==        Row: 2, 532000, 48364, 483636, 72545
+[TRACE] [2019-08-27 19:08] <==        Row: 4, 473000, 43000, 430000, 47300
+[DEBUG] [2019-08-27 19:08] <==      Total: 4
+[DEBUG] [2019-08-27 19:08] test01SelectSaleDetailRankMarPrice()
+[DEBUG] [2019-08-27 19:08] ==>  Preparing: select * from sale_detail order by mar_price desc 
+[DEBUG] [2019-08-27 19:08] ==> Parameters: 
+[TRACE] [2019-08-27 19:08] <==    Columns: no, sale_price, add_tax, sup_price, mar_price
+[TRACE] [2019-08-27 19:08] <==        Row: 3, 1300000, 118182, 1181818, 141818
+[TRACE] [2019-08-27 19:08] <==        Row: 2, 532000, 48364, 483636, 72545
+[TRACE] [2019-08-27 19:08] <==        Row: 1, 675000, 61364, 613636, 61364
+[TRACE] [2019-08-27 19:08] <==        Row: 4, 473000, 43000, 430000, 47300
+[DEBUG] [2019-08-27 19:08] <==      Total: 4
+[DEBUG] [2019-08-27 19:08] testOpenSession()
+[DEBUG] [2019-08-27 19:08] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@45fbc714

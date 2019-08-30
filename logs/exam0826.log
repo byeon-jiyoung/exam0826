@@ -1,0 +1,60 @@
+[DEBUG] [2019-08-29 15:47] test02SelectSaleByCode()
+[DEBUG] [2019-08-29 15:47] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-29 15:47] ==> Parameters: A003(String)
+[DEBUG] [2019-08-29 15:47] <==      Total: 0
+[DEBUG] [2019-08-29 15:47] test01SelectSaleByAll()
+[DEBUG] [2019-08-29 15:47] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-29 15:47] ==> Parameters: 
+[DEBUG] [2019-08-29 15:47] <==      Total: 0
+[DEBUG] [2019-08-29 15:47] test01SelectSaleByAll()
+[DEBUG] [2019-08-29 15:47] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-29 15:47] ==> Parameters: 
+[DEBUG] [2019-08-29 15:47] <==      Total: 0
+[DEBUG] [2019-08-29 15:47] test01SelectSaleDetailRankSalePrice()
+[DEBUG] [2019-08-29 15:47] ==>  Preparing: select * from sale_detail order by sale_price desc 
+[DEBUG] [2019-08-29 15:47] ==> Parameters: 
+[DEBUG] [2019-08-29 15:47] test01SelectSaleDetailRankMarPrice()
+[DEBUG] [2019-08-29 15:47] ==>  Preparing: select * from sale_detail order by mar_price desc 
+[DEBUG] [2019-08-29 15:47] ==> Parameters: 
+[DEBUG] [2019-08-29 15:47] testOpenSession()
+[DEBUG] [2019-08-29 15:47] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@7a92be42
+[DEBUG] [2019-08-29 15:48] test02SelectSaleByCode()
+[DEBUG] [2019-08-29 15:48] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-29 15:48] ==> Parameters: A003(String)
+[DEBUG] [2019-08-29 15:48] <==      Total: 0
+[DEBUG] [2019-08-29 15:48] test01SelectSaleByAll()
+[DEBUG] [2019-08-29 15:48] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-29 15:48] ==> Parameters: 
+[DEBUG] [2019-08-29 15:48] <==      Total: 0
+[DEBUG] [2019-08-29 15:48] test01SelectSaleDetailRankSalePrice()
+[DEBUG] [2019-08-29 15:48] ==>  Preparing: select * from sale_detail order by sale_price desc 
+[DEBUG] [2019-08-29 15:48] ==> Parameters: 
+[DEBUG] [2019-08-29 15:48] test01SelectSaleDetailRankMarPrice()
+[DEBUG] [2019-08-29 15:48] ==>  Preparing: select * from sale_detail order by mar_price desc 
+[DEBUG] [2019-08-29 15:48] ==> Parameters: 
+[DEBUG] [2019-08-29 15:48] test01SelectSaleByAll()
+[DEBUG] [2019-08-29 15:48] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-29 15:48] ==> Parameters: 
+[DEBUG] [2019-08-29 15:48] <==      Total: 0
+[DEBUG] [2019-08-29 15:48] testOpenSession()
+[DEBUG] [2019-08-29 15:48] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@4c9b2e95
+[DEBUG] [2019-08-29 16:16] test02SelectSaleByCode()
+[DEBUG] [2019-08-29 16:16] ==>  Preparing: select * from product where code = ? 
+[DEBUG] [2019-08-29 16:16] ==> Parameters: A003(String)
+[DEBUG] [2019-08-29 16:16] <==      Total: 0
+[DEBUG] [2019-08-29 16:16] test01SelectSaleByAll()
+[DEBUG] [2019-08-29 16:16] ==>  Preparing: select * from product 
+[DEBUG] [2019-08-29 16:16] ==> Parameters: 
+[DEBUG] [2019-08-29 16:16] <==      Total: 0
+[DEBUG] [2019-08-29 16:16] test01SelectSaleDetailRankSalePrice()
+[DEBUG] [2019-08-29 16:16] ==>  Preparing: select * from sale_detail order by sale_price desc 
+[DEBUG] [2019-08-29 16:16] ==> Parameters: 
+[DEBUG] [2019-08-29 16:16] test01SelectSaleDetailRankMarPrice()
+[DEBUG] [2019-08-29 16:16] ==>  Preparing: select * from sale_detail order by mar_price desc 
+[DEBUG] [2019-08-29 16:16] ==> Parameters: 
+[DEBUG] [2019-08-29 16:16] test01SelectSaleByAll()
+[DEBUG] [2019-08-29 16:16] ==>  Preparing: select * from sale 
+[DEBUG] [2019-08-29 16:16] ==> Parameters: 
+[DEBUG] [2019-08-29 16:16] <==      Total: 0
+[DEBUG] [2019-08-29 16:16] testOpenSession()
+[DEBUG] [2019-08-29 16:16] sessionorg.apache.ibatis.session.defaults.DefaultSqlSession@4c9b2e95
